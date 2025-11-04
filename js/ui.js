@@ -1,10 +1,3 @@
-// 効果音
-
-function playSound(src) {
-   const audio = new Audio(src);
-   audio.play();
-}
-
 function getTurnSymbol(color) {
    return color === "b" ? "⚫" : "⚪";
 }
