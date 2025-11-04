@@ -287,3 +287,83 @@ body {
    background-color: darkred;
    color: #fff;
 }
+
+@media (max-width: 600px) {
+
+   body {
+      height: 100dvh;
+      width: 100dvw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      background-color: #413689;
+      color: white;
+      font-family: Arial, sans-serif;
+   }
+
+   #indicator {
+      color: bisque;
+      font-size: 25px;
+      font-weight: bold;
+   }
+
+   #board td {
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      border: 2px solid black;
+      background-color: green;
+      /* 盤面の色 */
+      position: relative;
+   }
+
+   #black-score,
+   #white-score {
+      font-size: 25px;
+      font-weight: bold;
+   }
+
+   .black-name,
+   .white-name {
+      font-size: 14px;
+      font-weight: bold;
+   }
+
+   #black-turn,
+   #white-turn {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 60px;
+   }
+
+   #turn-info {
+      margin-top: 0;
+      font-size: 1.3rem;
+   }
+
+   .center {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+   }
+
+   .left {
+      position: fixed;
+      top: 30px;
+      left: 30px;
+   }
+
+   .right {
+      position: fixed;
+      top: 30px;
+      right: 30px;
+   }
+
+   #menu {
+      right: -60px;
+   }
+}
