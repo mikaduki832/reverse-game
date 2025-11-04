@@ -35,7 +35,6 @@ function placePiece(x, y, color) {
         flipPieces(x, y, color);
         updateBoard(); // 画面の更新
         updateScore();
-        playSound('se/put.mp3');
         return true;
     }
     return false;
